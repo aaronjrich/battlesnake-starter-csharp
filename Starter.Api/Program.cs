@@ -14,7 +14,7 @@ app.MapGet("/", () =>
     return new InitResponse
     {
         ApiVersion = "1",
-        Author = "",
+        Author = "GrumpyG",
         Color = "#FFFFFF",
         Head = "default",
         Tail = "default"
